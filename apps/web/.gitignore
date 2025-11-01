@@ -42,10 +42,6 @@ yarn-error.log*
 .pnpm-debug.log*
 *.log*
 
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
 # IDE
 .vscode/*
 !.vscode/extensions.json

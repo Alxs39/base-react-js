@@ -4,7 +4,6 @@ This project was created with [Better-T-Stack](https://github.com/AmanVarshney01
 
 ## Features
 
-- **TypeScript** - For type safety and improved developer experience
 - **React Router** - Declarative routing for React
 - **TailwindCSS** - Utility-first CSS for rapid UI development
 - **shadcn/ui** - Reusable UI components
@@ -46,4 +45,3 @@ base-react-js/
 - `pnpm dev`: Start all applications in development mode
 - `pnpm build`: Build all applications
 - `pnpm dev:web`: Start only the web application
-- `pnpm check-types`: Check TypeScript types across all apps

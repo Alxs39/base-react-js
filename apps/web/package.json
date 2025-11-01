@@ -6,7 +6,8 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext js,jsx --fix"
   },
   "dependencies": {
     "radix-ui": "^1.4.2",
@@ -31,14 +32,9 @@
   "devDependencies": {
     "@react-router/dev": "^7.6.1",
     "@tailwindcss/vite": "^4.1.8",
-    "@types/node": "^20",
-    "@types/react": "~19.1.10",
-    "@types/react-dom": "^19.0.4",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3",
     "vite": "^6.3.5",
-    "vite-tsconfig-paths": "^5.1.4",
     "@tanstack/react-query-devtools": "^5.85.5"
   }
 }

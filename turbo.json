@@ -8,10 +8,13 @@
 			"outputs": ["dist/**"]
 		},
 		"lint": {
-			"dependsOn": ["^lint"]
+			"dependsOn": ["^lint"],
+			"inputs": ["$TURBO_DEFAULT$", "eslint.config.js"]
 		},
-		"check-types": {
-			"dependsOn": ["^check-types"]
+		"lint:fix": {
+			"dependsOn": ["^lint:fix"],
+			"inputs": ["$TURBO_DEFAULT$", "eslint.config.js"],
+			"cache": false
 		},
 		"dev": {
 			"cache": false,
